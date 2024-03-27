@@ -1,0 +1,19 @@
+name: streamlit_ml_apps
+channels:
+  # - pytorch
+  # - nvidia
+  - defaults
+dependencies:
+  - streamlit
+  - pandas
+  - altair
+  # - numpy
+  # - pytorch
+  # - torchvision
+  # - pytorch-cuda=12.1
+  # - torchmetrics
+  # - lightning
+  # - pytorch-lightning
+  # - pip
+  # - pip:
+    # - streamlit
