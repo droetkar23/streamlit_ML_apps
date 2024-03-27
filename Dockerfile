@@ -5,7 +5,7 @@ WORKDIR /app
 RUN git clone https://github.com/streamlit/streamlit-example.git .
 
 COPY environment.yml .
-RUN mamba env create -f environment.yml
+RUN mamba env create -f environment.yml && mamba clean -ayf
 
 
 FROM conda_env_base
