@@ -2,7 +2,8 @@ name: streamlit_ml_apps
 channels:
   # - pytorch
   # - nvidia
-  - defaults
+  - conda-forge
+  # - defaults
 dependencies:
   - streamlit
   - pandas
