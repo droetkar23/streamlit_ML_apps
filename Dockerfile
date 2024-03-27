@@ -12,9 +12,6 @@ FROM conda_env_base
 
 # Make RUN commands use the new environment:
 SHELL ["conda", "run", "-n", "myenv", "/bin/bash", "-c"]
-# RUN echo "conda init" >> ~/.bashrc
-# RUN echo "conda activate streamlit_ml_apps" >> ~/.bashrc
-# SHELL ["/bin/bash", "--login", "-c"]
 
 EXPOSE 8501
 
