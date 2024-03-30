@@ -8,6 +8,12 @@ dependencies:
   - streamlit
   - pandas
   - altair
+  - svgpathtools
+  - svgwrite
+  - pip
+  - pip:
+    - streamlit-drawable-canvas
+
   # - numpy
   # - pytorch
   # - torchvision
@@ -15,6 +21,7 @@ dependencies:
   # - torchmetrics
   # - lightning
   # - pytorch-lightning
-  # - pip
-  # - pip:
-    # - streamlit
+#   streamlit>=0.88
+# streamlit-drawable-canvas>=0.8
+# svgpathtools
+# svgwrite
