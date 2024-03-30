@@ -11,7 +11,7 @@ RUN mamba env create -f environment.yml && mamba clean -ayf
 FROM conda_env_base
 
 
-# Make RUN commands use the new environment:
+# Make RUN commands use the new environment: TODO: this is redundant i think, conda run is used in entrypint.sh
 SHELL ["conda", "run", "-n", "myenv", "/bin/bash", "-c"]
 
 EXPOSE 8501
