@@ -1,26 +1,26 @@
 name: streamlit_ml_apps
 channels:
-  # - pytorch
-  # - nvidia
+  - pytorch
+  - nvidia
   - conda-forge
   # - defaults
 dependencies:
-  - streamlit
+  - numpy
+  - pytorch
+  - torchvision
+  - pytorch-cuda=12.1
+  - torchmetrics
+  # - lightning
+  - pytorch-lightning
   - pandas
   - altair
+  - streamlit
   - svgpathtools
   - svgwrite
   - pip
   - pip:
     - streamlit-drawable-canvas
 
-  # - numpy
-  # - pytorch
-  # - torchvision
-  # - pytorch-cuda=12.1
-  # - torchmetrics
-  # - lightning
-  # - pytorch-lightning
 #   streamlit>=0.88
 # streamlit-drawable-canvas>=0.8
 # svgpathtools
