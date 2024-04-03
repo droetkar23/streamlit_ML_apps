@@ -12,7 +12,7 @@ FROM conda_env_base
 
 
 # Make RUN commands use the new environment: TODO: this is redundant i think, conda run is used in entrypint.sh
-SHELL ["conda", "run", "-n", "myenv", "/bin/bash", "-c"]
+# SHELL ["conda", "run", "-n", "myenv", "/bin/bash", "-c"]
 
 EXPOSE 8501
 
